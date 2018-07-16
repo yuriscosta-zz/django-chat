@@ -1,13 +1,15 @@
 [[source]]
-verify_ssl = true
-name = "pypi"
 url = "https://pypi.python.org/simple"
-
-[dev-packages]
+name = "pypi"
+verify_ssl = true
 
 [packages]
-django = "==2.0"
-channels = "==2.1.2"
+django = "*"
+djangorestframework = "*"
+django-widget-tweaks = "*"
+
+[dev-packages]
+"autopep8" = "*"
 
 [requires]
 python_version = "3.6"
